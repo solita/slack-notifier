@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Solita.Slack.Notifier.xml" target="lib\net45" />
+    <file src="bin\Release\Solita.Slack.Notifier.dll" target="lib\net45" />
+    <file src="bin\Release\Solita.Slack.Notifier.pdb" target="lib\net45" />
+    <file src="**\*.cs" target="src" exclude="obj\**;bin\**" />
+  </files>
+</package>

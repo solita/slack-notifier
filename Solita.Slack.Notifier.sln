@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solita.Slack.Notifier", "Solita.Slack.Notifier\Solita.Slack.Notifier.csproj", "{0C97ABE7-627A-4088-8AFF-839F1B938BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solita.Slack.Notifier.Tests", "Solita.Slack.Notifier.Tests\Solita.Slack.Notifier.Tests.csproj", "{FA354EE2-4AC8-4C7F-994E-4B741E106D86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DDD3F29-CE15-46CE-B136-73F437B1E9BE}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentationResources", "documentationResources", "{C041EB11-F27A-49A8-9255-58E03A575468}"
+	ProjectSection(SolutionItems) = preProject
+		documentationResources\slackpost.PNG = documentationResources\slackpost.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C97ABE7-627A-4088-8AFF-839F1B938BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C97ABE7-627A-4088-8AFF-839F1B938BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C97ABE7-627A-4088-8AFF-839F1B938BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C97ABE7-627A-4088-8AFF-839F1B938BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA354EE2-4AC8-4C7F-994E-4B741E106D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA354EE2-4AC8-4C7F-994E-4B741E106D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA354EE2-4AC8-4C7F-994E-4B741E106D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA354EE2-4AC8-4C7F-994E-4B741E106D86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {531FE724-1D2F-4992-AC51-E1DF1890E9F4}
+	EndGlobalSection
+EndGlobal
