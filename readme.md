@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/solita-episerver-public/slack-notifier/_apis/build/status/solita-yusuftiryaki.slack-notifier?branchName=master)](https://dev.azure.com/solita-episerver-public/slack-notifier/_build/latest?definitionId=7&branchName=master)
+[![Build Status](https://solita-episerver-public.visualstudio.com/slack-notifier/_apis/build/status/solita.slack-notifier?branchName=master)](https://solita-episerver-public.visualstudio.com/slack-notifier/_build/latest?definitionId=10&branchName=master)
 
 # Solita Slack Notifier
 Easy AF API to send Slack room notifications & log4net appender.
