@@ -6,7 +6,7 @@ namespace Solita.Slack.Notifier.Tests
     [TestClass]
     public class Tests
     {
-        private const string Endpoint = "https://hooks.slack.com/services/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";
+        private const string Endpoint = "https://hooks.slack.com/services/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";
         private readonly string[] TestMessages = {
             "ASP.NET shutting down due to CodeDirChangeOrDirectoryRename",
 
